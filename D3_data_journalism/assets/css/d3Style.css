@@ -1,3 +1,9 @@
+.axisText {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-anchor: middle;
+}
+
 .aText {
   font-family: sans-serif;
   font-size: 16px;
@@ -28,6 +34,7 @@
   font-family: sans-serif;
   fill: #fff;
   text-anchor: middle;
+  font-size: 12px;
 }
 
 .stateCircle {
@@ -59,12 +66,12 @@
   }
 
   .aText {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .aText {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
